@@ -1,11 +1,11 @@
 plugins {
     id 'com.android.application'
-    id 'com.google.gms.google-services' // Firebase ke liye zaroori
+    id 'com.google.gms.google-services'
 }
 
 android {
     namespace 'com.example.ai_study_buddy'
-    compileSdk 34 // 36 se 34 kar diya stable rakhne ke liye
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.ai_study_buddy"
@@ -13,6 +13,7 @@ android {
         targetSdk 34
         versionCode 1
         versionName "1.0"
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -22,22 +23,34 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    // AI Model (tflite) ko crash hone se bachane ke liye setting
+    aaptOptions {
+        noCompress "tflite"
+    }
 }
 
 dependencies {
+    // Firebase Libraries
     implementation 'com.google.firebase:firebase-auth:22.3.1'
-
-    // YEH LINE ADD KARO (Firestore ke liye)
     implementation 'com.google.firebase:firebase-firestore:24.10.0'
+
+    // TensorFlow Lite Libraries (ALBERT Model chalane ke liye)
+    implementation 'org.tensorflow:tensorflow-lite:2.14.0'
+    implementation 'org.tensorflow:tensorflow-lite-support:0.4.4'
+    implementation 'org.tensorflow:tensorflow-lite-metadata:0.4.4'
+
+    // UI Libraries
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.11.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'com.google.firebase:firebase-auth:22.3.1'
 
+    // Testing
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
