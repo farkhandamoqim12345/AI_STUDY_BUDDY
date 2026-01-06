@@ -1,0 +1,700 @@
+1,Android,Activity,Activity is a single screen representing the UI.,Basic
+2,Android,Intent,Intents are messaging objects for component communication.,Basic
+3,Android,Lifecycle,The states an app transitions through like onCreate.,Hard
+4,Android,Manifest,The XML file that defines app permissions and structure.,Intermediate
+5,Android,Fragment,A modular portion of an activity UI and behavior.,Intermediate
+6,Database,SQL,Structured Query Language used for managing RDBMS.,Basic
+7,Database,Firebase,Google's cloud-based NoSQL database platform.,Basic
+8,Database,Normalization,Process of organizing data to reduce redundancy.,Hard
+9,Database,Primary Key,A unique identifier for each record in a table.,Basic
+10,Database,Schema,The formal structure and design of a database.,Intermediate
+11,SoftEng,SDLC,Software Development Life Cycle phases and steps.,Basic
+12,SoftEng,Agile,Iterative methodology for rapid software delivery.,Intermediate
+13,SoftEng,Testing,Process of verifying and validating software quality.,Basic
+14,SoftEng,Waterfall,A linear and sequential model for development.,Basic
+15,SoftEng,Scrum,An agile framework for managing complex projects.,Intermediate
+16,Android,Service,Component for performing long-running tasks in background.,Hard
+17,Android,Adapter,Bridge between data sources and UI components.,Intermediate
+18,Android,Layout,The visual structure and design of a user interface.,Basic
+19,Database,Index,Improves the speed of data retrieval operations.,Hard
+20,Database,Join,Combines rows from two or more tables based on columns.,Intermediate
+21,Android,BroadcastReceiver,Component that responds to system-wide broadcast announcements.,Hard
+22,Android,ContentProvider,Manages access to a structured set of data for other apps.,Hard
+23,Android,ViewModel,Designed to store and manage UI-related data in a lifecycle-aware way.,Intermediate
+24,Android,LiveData,An observable data holder class that is lifecycle-aware.,Intermediate
+25,Android,Room,A persistence library that provides an abstraction layer over SQLite.,Hard
+26,Android,DataBinding,Allows you to bind UI components in layouts to data sources.,Intermediate
+27,Android,WorkManager,API to schedule deferrable, asynchronous tasks even if app exits.,Hard
+28,Android,View,The basic building block for user interface components.,Basic
+29,Android,ViewGroup,A special view that can contain other views (layouts).,Basic
+30,Android,Widget,Reusable interactive elements like buttons and checkboxes.,Basic
+31,Database,Foreign Key,A field in one table that uniquely identifies a row of another table.,Intermediate
+32,Database,Constraint,Rules enforced on data columns to ensure integrity.,Intermediate
+33,Database,Transaction,A sequence of operations performed as a single logical unit.,Hard
+34,Database,ACID,Properties (Atomicity, Consistency, Isolation, Durability) for reliability.,Hard
+35,Database,NoSQL,Non-relational database for unstructured or distributed data.,Basic
+36,Database,MongoDB,A popular document-oriented NoSQL database system.,Basic
+37,Database,DDL,Data Definition Language used to define database structure.,Basic
+38,Database,DML,Data Manipulation Language used for managing data within objects.,Basic
+39,Database,StoredProcedure,A prepared SQL code that you can save and reuse.,Hard
+40,Database,View,A virtual table based on the result-set of an SQL statement.,Intermediate
+41,SoftEng,Cohesion,The degree to which elements of a module belong together.,Hard
+42,SoftEng,Coupling,The level of interdependence between software modules.,Hard
+43,SoftEng,UnitTesting,Testing individual components to ensure they work correctly.,Basic
+44,SoftEng,IntegrationTesting,Testing combined parts of an application to see if they work together.,Intermediate
+45,SoftEng,SystemTesting,Testing the complete and integrated software product.,Intermediate
+46,SoftEng,BetaTesting,Final testing performed by end users before release.,Basic
+47,SoftEng,Maintenance,The process of modifying software after it has been delivered.,Basic
+48,SoftEng,FeasibilityStudy,Analyzing if a project is technically and financially possible.,Basic
+49,SoftEng,Requirements,The needs and conditions to be met for a new product.,Basic
+50,SoftEng,DFD,Data Flow Diagram showing how data moves through a system.,Intermediate
+51,Android,Gradle,An advanced build toolkit that manages dependencies.,Intermediate
+52,Android,APK,Android Package Kit file format for installing apps.,Basic
+53,Android,Dalvik,The discontinued process virtual machine in Android.,Hard
+54,Android,ART,Android Runtime which replaced Dalvik for better performance.,Hard
+55,Android,Context,The handle to the system providing access to resources.,Hard
+56,Android,SharedPrefs,Store small collections of key-value pairs persistently.,Basic
+57,Android,Notification,A message you display to the user outside of your app UI.,Basic
+58,Android,Toast,A small popup message that disappears after a timeout.,Basic
+59,Android,SnackBar,Lightweight feedback about an operation with optional action.,Basic
+60,Android,RecyclerView,A flexible view for providing a limited window into a large data set.,Hard
+61,Database,Normalization1NF,Eliminating duplicate columns and ensuring atomicity.,Intermediate
+62,Database,Normalization2NF,Removing subsets of data that apply to multiple rows.,Hard
+63,Database,Normalization3NF,Removing columns that are not dependent on the primary key.,Hard
+64,Database,Indexing,A way to optimize performance by minimizing disk access.,Intermediate
+65,Database,Concurrency,Managing multiple simultaneous transactions without conflict.,Hard
+66,Database,Deadlock,A situation where two transactions wait for each other to finish.,Hard
+67,Database,Trigger,A procedural code that automatically executes on data changes.,Hard
+68,Database,QueryOptimization,The process of choosing the most efficient way to execute a query.,Hard
+69,Database,RelationalModel,Organizing data into one or more tables of rows and columns.,Basic
+70,Database,Cursor,A control structure that enables traversal over records.,Intermediate
+71,SoftEng,SpiralModel,A risk-driven process model for complex software projects.,Hard
+72,SoftEng,VModel,A model where testing is planned at each development stage.,Intermediate
+73,SoftEng,BlackBox,Testing focused on functionality without looking at code.,Basic
+74,SoftEng,WhiteBox,Testing that examines the internal logic and structure of code.,Hard
+75,SoftEng,UML,Unified Modeling Language used for visualizing system design.,Intermediate
+76,SoftEng,UseCase,A list of steps defining interactions between actor and system.,Basic
+77,SoftEng,ClassDiagram,Describes the structure of a system by showing its classes.,Intermediate
+78,SoftEng,Prototyping,Creating an incomplete model of the future full-scale software.,Basic
+79,SoftEng,Modularization,The process of breaking a program into independent modules.,Basic
+80,SoftEng,Refactoring,Restructuring existing code without changing its behavior.,Hard
+81,Android,NavigationComponent,Simplifies implementing navigation between destinations.,Intermediate
+82,Android,DeepLink,A link that takes you directly to a specific destination in app.,Hard
+83,Android,Retrofit,A type-safe HTTP client for Android and Java.,Hard
+84,Android,Glide,An image loading library for Android focused on smooth scrolling.,Intermediate
+85,Android,Parcelable,An Android-specific interface for passing data between components.,Hard
+86,Android,VectorDrawable,A graphic defined in an XML file as a set of points.,Basic
+87,Android,ConstraintLayout,Allows you to create large and complex layouts with flat view hierarchy.,Intermediate
+88,Android,ManifestPermission,Declaring required access to system features in Manifest.,Basic
+89,Android,GradleBuildType,Defines properties like debuggable and code shrinking.,Intermediate
+90,Android,AssetsFolder,Folder used to store raw files like fonts and databases.,Basic
+91,Database,DataDictionary,A collection of metadata that contains database definitions.,Intermediate
+92,Database,DataMining,The process of discovering patterns in large data sets.,Basic
+93,Database,DataWarehouse,A system used for reporting and data analysis.,Intermediate
+94,Database,OLAP,Online Analytical Processing for complex calculations.,Hard
+95,Database,Sharding,A type of database partitioning that separates very large databases.,Hard
+96,Database,KeyStore,A facility that provides a secure place to store keys.,Hard
+97,Database,SQLInjection,A code injection technique used to attack data-driven apps.,Hard
+98,Database,Entity,An object that exists and is distinguishable from others.,Basic
+99,Database,Relationship,The association between two or more entities.,Basic
+100,Database,Attribute,A characteristic or property of an entity.,Basic
+101,SoftEng,UserStory,An informal description of a software feature from user perspective.,Basic
+102,SoftEng,Sprint,A set period of time during which specific work is completed.,Basic
+103,SoftEng,Backlog,A prioritized list of work for the development team.,Basic
+104,SoftEng,BurnDownChart,A graphical representation of work left to do vs time.,Intermediate
+105,SoftEng,PeerReview,The process of evaluating code by another developer.,Basic
+106,SoftEng,Documentation,Written material explaining how software works or is used.,Basic
+107,SoftEng,SoftwarePatch,A set of changes to a computer program to update or fix it.,Basic
+108,SoftEng,QA,Quality Assurance to prevent mistakes in manufactured products.,Intermediate
+109,SoftEng,VersionControl,Management of changes to documents or programs (e.g., Git).,Basic
+110,SoftEng,Repository,The storage location where software packages are kept.,Basic
+111,Android,Thread,The execution of a program in parallel to the main UI thread.,Hard
+112,Android,Looper,Class used to run a message loop for a thread.,Hard
+113,Android,Handler,Used to send and process Message objects associated with a thread.,Hard
+114,Android,ServiceLifecycle,States like onStartCommand and onBind for background tasks.,Hard
+115,Android,IntenFilter,Declares the capabilities of an activity or service.,Intermediate
+116,Database,CompositeKey,A primary key made of two or more columns.,Intermediate
+117,Database,DataIntegrity,The maintenance of, and the assurance of the accuracy of data.,Intermediate
+118,Database,DistributedDB,A database that is located on different sites.,Hard
+119,SoftEng,AgileManifesto,A document that sets out the key values of agile.,Intermediate
+120,SoftEng,ObjectOriented,Programming based on the concept of objects and classes.,Basic
+121,Android,WorkManager,API for persistent work that survives app restarts.,Hard
+122,Android,RoomEntity,Represents a table within the Room database structure.,Intermediate
+123,Android,RoomDAO,Data Access Object containing methods for DB operations.,Hard
+124,Android,ConstraintSet,Allows programmatically defining constraints for layouts.,Hard
+125,Android,ShapeDrawable,XML based primitive shapes for background styling.,Basic
+126,Android,Selector,State list drawable to change UI based on focus/click.,Basic
+127,Android,CardView,A layout that provides a card-like look with elevation.,Basic
+128,Android,CoordinatorLayout,Powerful FrameLayout for complex UI interactions.,Hard
+129,Android,AppBarLayout,Vertical LinearLayout that implements Google Material design.,Intermediate
+130,Android,Toolbar,A generalization of action bars for use within layouts.,Basic
+131,Database,DataRedundancy,Occurrence of the same piece of data in multiple places.,Intermediate
+132,Database,DataIsolation,Property where data is not accessible to other users.,Hard
+133,Database,Dependency,Relationship where one attribute determines another.,Intermediate
+134,Database,FunctionalDependency,Constraint between two sets of attributes in a relation.,Hard
+135,Database,MultivaluedDependency,Constraint where one attribute implies multiple values.,Hard
+136,Database,JoinDependency,Constraint where a relation can be reconstructed by joins.,Hard
+137,Database,Domain,The set of all possible values for an attribute.,Basic
+138,Database,Tuple,A single row in a relational database table.,Basic
+139,Database,Cardinality,The number of tuples in a relationship.,Intermediate
+140,Database,WeakEntity,An entity that cannot be identified by its own attributes.,Intermediate
+141,SoftEng,StaticTesting,Testing without executing the actual code.,Intermediate
+142,SoftEng,DynamicTesting,Testing by executing the code and checking results.,Intermediate
+143,SoftEng,SanityTesting,Subset of regression testing to check specific logic.,Basic
+144,SoftEng,SmokeTesting,Preliminary testing to check basic system stability.,Basic
+145,SoftEng,PerformanceTesting,Testing speed and stability under various loads.,Intermediate
+146,SoftEng,LoadTesting,Checking system behavior under expected user load.,Basic
+147,SoftEng,StressTesting,Checking system behavior beyond normal limits.,Hard
+148,SoftEng,ScalabilityTesting,Testing ability to scale up or out effectively.,Hard
+149,SoftEng,UsabilityTesting,Evaluating how easy the system is to use for users.,Basic
+150,SoftEng,SecurityTesting,Finding vulnerabilities and protecting data integrity.,Hard
+151,Android,WebView,View that displays web pages inside your application.,Intermediate
+152,Android,DeepLinking,Navigation via URIs directly into specific app parts.,Hard
+153,Android,InstantApps,Run Android apps without full installation on device.,Hard
+154,Android,JobScheduler,API for scheduling background jobs for the system.,Hard
+155,Android,AlarmManager,Access to system alarm services for timed events.,Intermediate
+156,Android,PendingIntent,Token that allows another app to execute your code.,Hard
+157,Android,Localization,Adapting app for different languages and regions.,Basic
+158,Android,VectorAsset,XML format for high quality icons and graphics.,Basic
+159,Android,GradleFlavor,Creating different versions of app from same source.,Intermediate
+160,Android,ProGuard,Shrinks and obfuscates code to reduce APK size.,Hard
+161,Database,DeadlockPrevention,Techniques to ensure deadlocks never occur.,Hard
+162,Database,DeadlockDetection,Identifying deadlocks and taking recovery actions.,Hard
+163,Database,Checkpoint,Point where database log and data are synchronized.,Intermediate
+164,Database,Rollback,Reverting a transaction to its previous stable state.,Basic
+165,Database,Commit,Permanently saving all changes made in a transaction.,Basic
+166,Database,TwoPhaseLocking,Protocol to ensure serializability in transactions.,Hard
+167,Database,StarSchema,Simplest style of data mart schema for warehousing.,Intermediate
+168,Database,SnowflakeSchema,More complex, normalized version of star schema.,Hard
+169,Database,MaterializedView,Database object containing results of a query.,Hard
+170,Database,TriggerFunction,Logic executed automatically on specific DB events.,Intermediate
+171,SoftEng,ObjectRelationalMapping,Mapping objects to database tables automatically.,Hard
+172,SoftEng,Microservices,Architecture where app is a collection of services.,Hard
+173,SoftEng,Monolithic,Architecture where all components are in one unit.,Basic
+174,SoftEng,DevOps,Practice of combining development and operations.,Intermediate
+175,SoftEng,CI_CD,Continuous Integration and Continuous Deployment.,Intermediate
+176,SoftEng,CodeCoverage,Measure of how much code is tested by scripts.,Intermediate
+177,SoftEng,TechnicalDebt,Cost of choosing easy solution over best solution.,Hard
+178,SoftEng,PairProgramming,Two programmers working together at one station.,Basic
+179,SoftEng,CodeSmell,Surface indication of deeper problems in code.,Intermediate
+180,SoftEng,DesignPattern,Reusable solution to common software problems.,Hard
+181,Android,OkHttp,Library used for making efficient network requests.,Intermediate
+182,Android,Retrofit,Type-safe REST client for Android and Java.,Hard
+183,Android,Picasso,Image downloading and caching library for Android.,Basic
+184,Android,LeakCanary,Memory leak detection library for Android/Java.,Hard
+185,Android,Espresso,Framework for writing automated Android UI tests.,Intermediate
+186,Android,Robolectric,Unit testing framework that runs on the JVM.,Hard
+187,Android,Dagger,Fully static, compile-time dependency injection.,Hard
+188,Android,Hilt,Dependency injection library for Android (on Dagger).,Hard
+189,Android,RxJava,Library for composing asynchronous/event-based programs.,Hard
+190,Android,KotlinCoroutines,Design pattern for asynchronous programming.,Intermediate
+191,Database,DataIndependence,Property where schema levels are independent.,Hard
+192,Database,RelationalAlgebra,Mathematical basis for relational databases.,Hard
+193,Database,Selection,Operation that retrieves rows based on criteria.,Basic
+194,Database,Projection,Operation that retrieves specific columns from table.,Basic
+195,Database,Union,Operation that combines results of two queries.,Basic
+196,Database,Intersection,Operation that returns common rows of two queries.,Intermediate
+197,Database,CartesianProduct,Combining every row of one table with another.,Hard
+198,Database,B_Tree,Data structure for efficient database indexing.,Hard
+199,Database,Hashing,Mapping data to fixed-size values for fast access.,Intermediate
+200,Database,DatabaseAdministrator,Person responsible for managing database systems.,Basic
+201,SoftEng,WaterfallModel,Linear and sequential software development model.,Basic
+202,SoftEng,IncrementalModel,Software is developed in small manageable chunks.,Intermediate
+203,SoftEng,RADModel,Rapid Application Development focusing on speed.,Intermediate
+204,SoftEng,AgileScrum,Framework for managing work in small iterations.,Basic
+205,SoftEng,ExtremeProgramming,Agile framework focusing on technical excellence.,Hard
+206,SoftEng,LeanSoftware,Eliminating waste and delivering value quickly.,Intermediate
+207,SoftEng,KanbanBoard,Visual tool to manage work in progress efficiently.,Basic
+208,SoftEng,AcceptanceCriteria,Conditions that a software product must meet.,Basic
+209,SoftEng,UserInterface,The point of interaction between human and machine.,Basic
+210,SoftEng,SoftwareArchitecture,High-level structure of a software system.,Hard
+211,Android,ActivityLaunchMode,Defines how a new activity instance is started.,Hard
+212,Android,BackStack,The stack of activities the user has visited.,Intermediate
+213,Android,Parcel,Container for a message (data and object references).,Hard
+214,Android,Bundle,Map that stores primitive data for state saving.,Basic
+215,Android,Style,Collection of attributes that define UI appearance.,Basic
+216,Android,Theme,Style applied to an entire activity or application.,Basic
+217,Android,DimensionResource,XML resource to define screen sizes and margins.,Basic
+218,Android,ColorResource,XML resource to define hex color values.,Basic
+219,Android,Menu,XML resource for defining options in toolbar.,Basic
+220,Android,StringsXML,File for storing all text used in the application.,Basic
+221,Android,WorkRequest,Definition of a task to be performed by WorkManager.,Hard
+222,Android,Constraints,Set of conditions that must be met to run a task.,Intermediate
+223,Android,OneTimeWorkRequest,A task that runs only once at a specific time.,Basic
+224,Android,PeriodicWorkRequest,A task that repeats on a defined interval.,Intermediate
+225,Android,WorkInfo,Object containing information about a work request status.,Hard
+226,Database,Normalization4NF,Multi-valued dependencies are removed from relations.,Hard
+227,Database,Normalization5NF,Deals with cases where join dependencies exist.,Hard
+228,Database,BCNF,Boyce-Codd Normal Form, a stronger version of 3NF.,Hard
+229,Database,Denormalization,Adding redundant data to speed up complex queries.,Intermediate
+230,Database,DataSilo,Collection of data held by one group that is not accessible.,Intermediate
+231,SoftEng,FormalMethods,Mathematical techniques for software specification.,Hard
+232,SoftEng,CleanRoom,Software process aiming for zero defects.,Hard
+233,SoftEng,Refactoring,Improving internal code without changing external behavior.,Intermediate
+234,SoftEng,LegacySystem,Old software that is still in use but hard to maintain.,Basic
+235,SoftEng,ComponentBased,Developing software by assembling existing parts.,Intermediate
+236,Android,CustomView,Creating unique UI elements by extending View class.,Hard
+237,Android,Canvas,Object used to draw 2D graphics in Android.,Hard
+238,Android,Paint,Object that holds style and color info for drawing.,Intermediate
+239,Android,SurfaceView,A dedicated drawing surface embedded inside a view.,Hard
+240,Android,TextureView,Displays a content stream like video or OpenGL.,Hard
+241,Database,QueryPlan,Sequence of operations used to access data in RDBMS.,Hard
+242,Database,Optimizer,Component that finds the best query execution plan.,Hard
+243,Database,FullTableScan,Reading every row in a table to find a match.,Basic
+244,Database,IndexSeek,Using an index to find specific rows efficiently.,Intermediate
+245,Database,HeapTable,A table without a clustered index.,Intermediate
+246,SoftEng,Reliability,The probability of failure-free software operation.,Intermediate
+247,SoftEng,Maintainability,The ease with which software can be modified.,Basic
+248,SoftEng,Portability,Ability to run software on different platforms.,Basic
+249,SoftEng,Interoperability,Ability of two systems to exchange information.,Intermediate
+250,SoftEng,Efficiency,Amount of resources used by software to perform.,Basic
+251,Android,IntentFilter,Declares what intents a component can handle.,Intermediate
+252,Android,ExplicitIntent,An intent that specifies the exact component to start.,Basic
+253,Android,ImplicitIntent,An intent that asks the system to find a handler.,Basic
+254,Android,TaskStackBuilder,Helps in managing the navigation back stack.,Hard
+255,Android,PendingIntent,Granting permission to another app to use your intent.,Hard
+256,Database,LogicalSchema,Design of the database at the logical level.,Intermediate
+257,Database,PhysicalSchema,Design of the database at the physical level.,Hard
+258,Database,ViewMaterialization,Process of computing the result of a view.,Hard
+259,Database,ConcurrencyControl,Managing simultaneous operations on a database.,Hard
+260,Database,SharedLock,Allows multiple transactions to read a resource.,Intermediate
+261,SoftEng,RequirementEngineering,The process of defining and documenting needs.,Intermediate
+262,SoftEng,SRS,Software Requirements Specification document.,Basic
+263,SoftEng,FunctionalRequirement,What the system should do (features).,Basic
+264,SoftEng,NonFunctionalRequirement,How the system should perform (speed, security).,Basic
+265,SoftEng,TraceabilityMatrix,Maps requirements to test cases.,Hard
+266,Android,ActivityAlias,An alternative name for an activity in Manifest.,Hard
+267,Android,PermissionGroup,A logical grouping of related app permissions.,Intermediate
+268,Android,ProtectionLevel,Defines the risk potential of a permission.,Hard
+269,Android,HardwareAcceleration,Using GPU for faster UI rendering in Android.,Intermediate
+270,Android,Choreographer,Coordinates the timing of animations and drawing.,Hard
+271,Database,DataMigration,Moving data between different storage types.,Intermediate
+272,Database,DataScrubbing,Cleaning data to ensure it is accurate and complete.,Intermediate
+273,Database,MetadataRepository,Storage for all metadata of a database system.,Hard
+274,Database,Instance,A collection of background processes and memory.,Hard
+275,Database,Tablespace,Storage location where database objects are kept.,Intermediate
+276,SoftEng,DataDictionary,Repository of information about data elements.,Basic
+277,SoftEng,DecisionTable,Table showing logic for complex business rules.,Intermediate
+278,SoftEng,StateTransition,Diagram showing how a system changes states.,Intermediate
+279,SoftEng,StructuralTesting,Testing based on the internal code structure.,Hard
+280,SoftEng,MutationTesting,Modifying code slightly to test the test suite.,Hard
+281,Android,DaggerComponent,Bridge between provider of objects and consumers.,Hard
+282,Android,DaggerModule,A class that provides or produces objects.,Hard
+283,Android,DaggerScope,Annotation to limit the lifetime of an object.,Hard
+284,Android,HiltAndroidApp,Trigger for Hilt code generation in Application.,Basic
+285,Android,InjectAnnotation,Tells Hilt/Dagger to provide the dependency.,Basic
+286,Database,TwoPhaseCommit,Protocol for distributed transaction atomicity.,Hard
+287,Database,VectorDatabase,Database optimized for storing AI embeddings.,Hard
+288,Database,GraphDatabase,Uses graph structures for semantic queries.,Hard
+289,Database,TimeSeriesDB,Optimized for handling time-stamped data.,Intermediate
+290,Database,SpatialDatabase,Database optimized for geographic data.,Intermediate
+291,SoftEng,ReverseEngineering,Analyzing a system to create its representation.,Hard
+292,SoftEng,ReEngineering,Rebuilding an existing system for better performance.,Intermediate
+293,SoftEng,RiskManagement,Identifying and mitigating project risks.,Basic
+294,SoftEng,CostEstimation,Predicting the financial resources needed.,Basic
+295,SoftEng,QualityControl,Techniques used to fulfill quality requirements.,Basic
+296,Android,DataStore,Modern data storage solution replacing SharedPreferences.,Intermediate
+297,Android,PreferencesDataStore,Stores key-value pairs using DataStore.,Basic
+298,Android,ProtoDataStore,Stores typed objects using Protocol Buffers.,Hard
+299,Android,Flow,An asynchronous stream of data for reactive UI.,Hard
+300,Android,StateFlow,A flow that represents a state for UI updates.,Hard
+301,Database,ColdBackup,Backup taken while the database is offline.,Basic
+302,Database,HotBackup,Backup taken while the database is online.,Intermediate
+303,Database,DifferentialBackup,Backing up only data changed since last full backup.,Intermediate
+304,Database,IncrementalBackup,Backing up data changed since any last backup.,Basic
+305,Database,TransactionLogs,Files that record all changes made to a database.,Hard
+306,SoftEng,UnitOfWork,Pattern that tracks changes during a transaction.,Hard
+307,SoftEng,RepositoryPattern,Mediates between domain and data mapping layers.,Intermediate
+308,SoftEng,DependencyInversion,High level modules should not depend on low level.,Hard
+309,SoftEng,InterfaceSegregation,Clients should not depend on unused interfaces.,Intermediate
+310,SoftEng,LiskovSubstitution,Subtypes must be substitutable for base types.,Hard
+311,Android,AppStartup,Library to initialize components at app start.,Intermediate
+312,Android,SplashScreen,API to manage the initial screen of the app.,Basic
+313,Android,DynamicDelivery,Downloading app features on demand.,Hard
+314,Android,PlayFeatureDelivery,Splitting app into modules for smaller APK.,Hard
+315,Android,AppBundle,Format that includes all app compiled code.,Basic
+316,Database,DataGovernance,Managing the availability and security of data.,Intermediate
+317,Database,DataProfiling,Analyzing data to understand its structure.,Intermediate
+318,Database,DataLineage,Understanding the origin and movement of data.,Hard
+319,Database,DataLake,Storage for massive amounts of raw data.,Intermediate
+320,Database,MasterDataManagement,Creating a single source of truth for data.,Hard
+321,Android,RetrofitConverter,Translates API responses into Java/Kotlin objects.,Hard
+322,Android,OkHttpInterceptor,Monitors or rewrites outgoing requests and incoming responses.,Hard
+323,Android,HttpLoggingInterceptor,Logs network request and response data for debugging.,Intermediate
+324,Android,MockWebServer,A library for testing network calls by mocking responses.,Hard
+325,Android,Moshi,A modern JSON library for Android and Java.,Intermediate
+326,Database,HorizontalScaling,Adding more machines to a database cluster for load.,Hard
+327,Database,VerticalScaling,Adding more power (CPU/RAM) to an existing DB server.,Intermediate
+328,Database,ReplicationLag,Delay between data being written to master and slave.,Hard
+329,Database,MasterSlaveReplication,One node handles writes while others handle reads.,Intermediate
+330,Database,MultiMasterReplication,Multiple nodes can handle both read and write operations.,Hard
+331,SoftEng,TDD,Test Driven Development where tests are written before code.,Hard
+332,SoftEng,BDD,Behavior Driven Development focusing on user behavior.,Intermediate
+333,SoftEng,Refactoring,Improving code structure without changing functionality.,Basic
+334,SoftEng,AntiPattern,A common response to a problem that is usually ineffective.,Intermediate
+335,SoftEng,SpaghettiCode,Source code that has a complex and tangled structure.,Basic
+336,Android,ViewBinding,Feature that allows you to more easily write code that interacts with views.,Intermediate
+337,Android,DataStore,A data storage solution that allows you to store key-value pairs.,Intermediate
+338,Android,PreferencesDataStore,Uses key-value pairs to store data, similar to SharedPreferences.,Basic
+339,Android,ProtoDataStore,Stores data as instances of a custom data type using Protocol Buffers.,Hard
+340,Android,Migration,A class used to update the database schema between versions.,Hard
+341,Database,QueryCache,Storing the result of a query for faster subsequent access.,Intermediate
+342,Database,ExecutionPlan,The sequence of steps used by a database to execute a query.,Hard
+343,Database,IndexScan,Reading an entire index to find required data.,Intermediate
+344,Database,TableScan,Reading all data pages in a table when no index is available.,Basic
+345,Database,ClusteredIndex,Determines the physical order of data in a table.,Hard
+346,SoftEng,CyclomaticComplexity,A measure of the number of linearly independent paths through code.,Hard
+347,SoftEng,TechnicalDebt,The cost of reworking code due to quick-and-dirty fixes.,Intermediate
+348,SoftEng,CodeSmell,Any symptom in the source code that indicates a deeper problem.,Basic
+349,SoftEng,LegacyCode,Code that is inherited from someone else or an older version.,Basic
+350,SoftEng,Standardization,The process of making something conform to a standard.,Basic
+351,Android,WorkManagerUniqueWork,Ensures only one instance of a specific task runs.,Hard
+352,Android,ForegroundService,A service that performs an operation noticeable to the user.,Intermediate
+353,Android,BackgroundService,A service that runs in the background without user interaction.,Basic
+354,Android,BoundService,A service that allows other components to bind to it.,Intermediate
+355,Android,IntentService,A base class for Services that handle asynchronous requests.,Intermediate
+356,Database,CheckConstraint,Ensures that all values in a column satisfy a specific condition.,Basic
+357,Database,DefaultConstraint,Provides a default value for a column when none is specified.,Basic
+358,Database,UniqueConstraint,Ensures that all values in a column are unique.,Basic
+359,Database,NotNullConstraint,Ensures that a column cannot have a NULL value.,Basic
+360,Database,CascadeDelete,Automatically deletes related rows in child tables.,Hard
+361,SoftEng,Abstraction,Hiding internal details and showing only functionality.,Basic
+362,SoftEng,Encapsulation,Binding data and methods together into a single unit.,Basic
+363,SoftEng,Inheritance,Mechanism where one class acquires properties of another.,Basic
+364,SoftEng,Polymorphism,Ability of a single function to take different forms.,Intermediate
+365,SoftEng,Composition,A design principle where a class is composed of other objects.,Intermediate
+366,Android,Lottie,A library that parses Adobe After Effects animations.,Intermediate
+367,Android,GlideTransformations,Applying effects like cropping or blurring to images.,Intermediate
+368,Android,ExoPlayer,An application-level media player for Android.,Hard
+369,Android,CameraX,A Jetpack library to make camera development easier.,Hard
+370,Android,BiometricPrompt,A system-provided dialog for biometric authentication.,Intermediate
+371,Database,DistributedTransaction,A transaction that involves multiple database nodes.,Hard
+372,Database,SagaPattern,Managing failures in distributed transactions via compensation.,Hard
+373,Database,EventualConsistency,Data will become consistent across all nodes over time.,Hard
+374,Database,StrongConsistency,Data is consistent across all nodes immediately after write.,Hard
+375,Database,Partitioning,Dividing a large database into smaller, manageable parts.,Intermediate
+376,SoftEng,SoftwareLifecycle,The entire period from initial concept to retirement.,Basic
+377,SoftEng,VersionControl,System for tracking changes to files over time.,Basic
+378,SoftEng,GitBranch,An independent line of development in a repository.,Basic
+379,SoftEng,PullRequest,A method of submitting contributions to a project.,Basic
+380,SoftEng,MergeConflict,An event that occurs when Git cannot resolve differences.,Intermediate
+381,Android,NavigationGraph,An XML file that contains all navigation-related info.,Basic
+382,Android,NavHostFragment,A container for destinations in a navigation graph.,Intermediate
+383,Android,NavController,The object that manages app navigation within a NavHost.,Intermediate
+384,Android,SafeArgs,A plugin for passing data between navigation destinations safely.,Hard
+385,Android,DeepLinkRequest,An object that represents a navigation destination via URI.,Hard
+386,Database,BackupRetention,The policy for how long database backups are kept.,Basic
+387,Database,PointInTimeRecovery,Restoring a database to a specific second in the past.,Hard
+388,Database,DatabaseMirroring,Maintaining two copies of a database for high availability.,Hard
+389,Database,LogShipping,The process of sending transaction logs to a standby server.,Hard
+390,Database,Failsafe,A system designed to return to a safe state upon failure.,Basic
+391,SoftEng,ArchitecturePattern,A general, reusable solution to a commonly occurring problem.,Intermediate
+392,SoftEng,ClientServer,A distributed application structure between providers and consumers.,Basic
+393,SoftEng,PeerToPeer,A distributed architecture without centralized servers.,Basic
+394,SoftEng,LayeredArchitecture,Organizing a system into distinct layers of responsibility.,Intermediate
+395,SoftEng,EventDriven,Architecture where system flow is determined by events.,Hard
+396,Android,PagingLibrary,Library for loading and displaying small chunks of data.,Hard
+397,Android,BoundaryCallback,Signals when the Paging library has reached the end of data.,Hard
+398,Android,PagedList,A list that loads its content in chunks from a DataSource.,Intermediate
+399,Android,DataSource,The base class for loading data into a PagedList.,Hard
+400,Android,DiffUtil,Utility class that calculates the difference between two lists.,Hard
+401,Database,DataAnonymization,Protecting sensitive data by removing identifying info.,Intermediate
+402,Database,DataEncryptionAtRest,Protecting stored data from unauthorized access.,Hard
+403,Database,DataEncryptionInTransit,Protecting data while it moves across a network.,Hard
+404,Database,AuditLog,A record of who accessed what data and when.,Intermediate
+405,Database,DatabaseHardening,Securing a database by reducing its vulnerabilities.,Hard
+406,SoftEng,CodeReview,Systematic examination of computer source code.,Basic
+407,SoftEng,PairProgramming,Two programmers working together at one workstation.,Basic
+408,SoftEng,ContinuousIntegration,Automatically building and testing code changes.,Intermediate
+409,SoftEng,ContinuousDeployment,Automatically releasing code changes to production.,Hard
+410,SoftEng,BlueGreenDeployment,Reducing downtime by running two identical environments.,Hard
+411,Android,AppLinks,HTTP URLs that bring users directly to specific content.,Intermediate
+412,Android,AssetLinksJSON,File used to verify ownership of an app link.,Hard
+413,Android,AutoFillFramework,Allows apps to provide data to other apps' forms.,Intermediate
+414,Android,SliceProvider,Provides UI templates that can be displayed outside the app.,Hard
+415,Android,ShortcutManager,API to manage app shortcuts in the launcher.,Intermediate
+416,Database,NoSQLDocumentStore,Database that stores data in JSON or XML format.,Basic
+417,Database,NoSQLKeyStore,Database that stores data in a simple key-value format.,Basic
+418,Database,NoSQLColumnStore,Database that stores data in columns instead of rows.,Intermediate
+419,Database,NoSQLGraphStore,Database that uses graph nodes and edges for data.,Hard
+420,Database,PolyglotPersistence,Using different databases for different data needs.,Hard
+421,Android,TFLite,Lightweight framework for running AI models on mobile.,Hard
+422,Android,Inference,The process of running a machine learning model on device.,Hard
+423,Android,Interpreter,Engine that executes the TFLite model in Android.,Intermediate
+424,Android,MetadataExtractor,Reads information about input/output from TFLite files.,Hard
+425,Android,NeuralNetworkAPI,Android API for hardware-accelerated ML operations.,Hard
+426,Database,BigData,Extremely large datasets that require specialized processing.,Basic
+427,Database,Hadoop,Framework for distributed storage and processing of big data.,Intermediate
+428,Database,Spark,Engine for large-scale data processing and analytics.,Hard
+429,Database,DataScientist,Professional who analyzes and interprets complex data.,Basic
+430,Database,ETL,Extract, Transform, and Load process for data warehousing.,Intermediate
+431,SoftEng,Microservices,Decoupled services communicating over a network.,Hard
+432,SoftEng,Serverless,Cloud computing where the provider manages server logic.,Intermediate
+433,SoftEng,Docker,Platform for developing and running apps in containers.,Intermediate
+434,SoftEng,Kubernetes,System for automating deployment and scaling of containers.,Hard
+435,SoftEng,LoadBalancer,Distributes network traffic across multiple servers.,Basic
+436,Android,WorkManagerPeriodic,Scheduling tasks that repeat at regular intervals.,Intermediate
+437,Android,BatteryOptimization,System features that limit background app activity.,Basic
+438,Android,DozeMode,Power-saving mode that reduces background processing.,Intermediate
+439,Android,AppStandby,Puts apps into a low-power state if not used recently.,Basic
+440,Android,WakeLock,Mechanism to keep the CPU running for critical tasks.,Hard
+441,Database,ColumnarStorage,Storing data in columns to improve analytical queries.,Hard
+442,Database,DataCompression,Reducing the physical size of data on disk.,Intermediate
+443,Database,EncryptionAtRest,Protecting data while it is stored on a disk.,Hard
+444,Database,EncryptionInTransit,Protecting data while it moves across a network.,Hard
+445,Database,RoleBasedAccess,Granting permissions based on user roles.,Basic
+446,SoftEng,AgileManifesto,Core values and principles of agile development.,Basic
+447,SoftEng,ScrumCeremonies,Meetings like Sprint Planning and Retrospectives.,Intermediate
+448,SoftEng,Velocity,A measure of the amount of work a team does in a sprint.,Basic
+449,SoftEng,ProductOwner,Person responsible for the product backlog and vision.,Basic
+450,SoftEng,Stakeholder,Anyone with an interest in the project outcome.,Basic
+451,Android,SensorManager,API to access device sensors like accelerometer.,Intermediate
+452,Android,LocationProvider,Determines the device's geographical location.,Basic
+453,Android,Geofencing,Virtual perimeter for a real-world geographic area.,Hard
+454,Android,BluetoothLE,Energy-efficient wireless communication for devices.,Hard
+455,Android,NFC,Near Field Communication for short-range data exchange.,Intermediate
+456,Database,Snapshot,A view of the database at a particular point in time.,Intermediate
+457,Database,LogShipping,Automatically sending transaction logs to another server.,Hard
+458,Database,Mirroring,Maintaining a redundant copy of a database.,Hard
+459,Database,HighAvailability,System design to ensure continuous operation.,Intermediate
+460,Database,DisasterRecovery,Plan to restore data after a catastrophic event.,Basic
+461,SoftEng,BugLifeCycle,The stages a bug goes through from discovery to fix.,Basic
+462,SoftEng,RegressionTesting,Re-testing to ensure old bugs haven't reappeared.,Intermediate
+463,SoftEng,StressTesting,Evaluating system performance under extreme load.,Hard
+464,SoftEng,AlphaTesting,Testing performed by developers within the company.,Basic
+465,SoftEng,BetaTesting,Testing performed by real users in real environments.,Basic
+466,Android,MaterialDesign3,The latest version of Google's design system.,Basic
+467,Android,DynamicColor,UI colors that adapt to user wallpaper.,Intermediate
+468,Android,JetpackCompose,Modern toolkit for building native Android UI.,Hard
+469,Android,DeclarativeUI,Describing what the UI should look like for a state.,Intermediate
+470,Android,Composable,A function that defines a UI component in Compose.,Basic
+471,Database,DataSilo,Isolated collection of data not shared with others.,Basic
+472,Database,DataLineage,Tracking data from its origin to its destination.,Hard
+473,Database,DataDictionary,Centralized repository of information about data.,Intermediate
+474,Database,DataCatalog,Inventory of data assets across an organization.,Basic
+475,Database,DataProfiling,Analyzing data to understand its quality and structure.,Intermediate
+476,SoftEng,Refactoring,Restructuring code without changing its behavior.,Basic
+477,SoftEng,TechnicalDebt,The future cost of quick and dirty coding now.,Intermediate
+478,SoftEng,CodeSmell,Surface indication of a deeper problem in code.,Basic
+479,SoftEng,AntiPattern,A common but ineffective solution to a problem.,Intermediate
+480,SoftEng,DesignPattern,Reusable solution to a commonly occurring problem.,Basic
+481,Android,AppSandbox,Security mechanism isolating apps from each other.,Hard
+482,Android,KeyStore,Secure system for storing cryptographic keys.,Hard
+483,Android,PermissionReview,Users granting or denying app permissions at runtime.,Basic
+484,Android,ScopedStorage,Restricting app access to device-wide storage.,Hard
+485,Android,PrivacyDashboard,System settings showing which apps access data.,Basic
+486,Database,GraphDatabase,Uses nodes and edges to represent and store data.,Hard
+487,Database,TimeSeriesDB,Optimized for handling time-stamped information.,Intermediate
+488,Database,VectorDatabase,Storing data as high-dimensional vectors for AI.,Hard
+489,Database,InMemoryDB,Storing data in RAM for lightning-fast access.,Hard
+490,Database,MultiModelDB,Supporting multiple data models in one system.,Hard
+491,SoftEng,DevOps,Cultural shift to merge development and operations.,Basic
+492,SoftEng,CI_CD,Continuous Integration and Continuous Deployment.,Intermediate
+493,SoftEng,DockerContainer,Standard unit of software that packages code.,Intermediate
+494,SoftEng,MicroserviceMesh,Network for managing microservices communication.,Hard
+495,SoftEng,InfrastructureAsCode,Managing hardware through machine-readable files.,Hard
+496,Android,ChatBotLogic,Algorithms used to process user queries in chat.,Intermediate
+497,Android,NLP,Natural Language Processing for understanding text.,Hard
+498,Android,Tokenization,Breaking down sentences into smaller words or tokens.,Hard
+499,Android,PatternMatching,Finding specific sequences within the input data.,Basic
+500,Android,AI_Study_Buddy,Your personalized academic assistant app.,Basic
+501,Android,Rooting,The process of gaining administrative control over Android.,Hard
+502,Android,Bootloader,Code that executes before any Operating System starts.,Hard
+503,Android,CustomROM,Modified version of Android OS developed by community.,Intermediate
+504,Android,Sideloading,Installing apps from sources other than Play Store.,Basic
+505,Android,Obfuscation,Making code difficult for humans to understand/reverse.,Hard
+506,Database,NoSQLScaling,Scaling out by adding more commodity servers to a cluster.,Intermediate
+507,Database,ACID_Atomicity,Ensures that all parts of a transaction succeed or fail.,Hard
+508,Database,ACID_Consistency,Ensures database remains in a valid state after change.,Hard
+509,Database,ACID_Isolation,Ensures concurrent transactions don't interfere.,Hard
+510,Database,ACID_Durability,Ensures committed data survives system failures.,Hard
+511,SoftEng,CleanCode,Writing code that is easy to read and maintain.,Basic
+512,SoftEng,DRY_Principle,Don't Repeat Yourself - avoiding code duplication.,Basic
+513,SoftEng,KISS_Principle,Keep It Simple, Stupid - avoiding unnecessary complexity.,Basic
+514,SoftEng,YAGNI,You Ain't Gonna Need It - only build what is required.,Intermediate
+515,SoftEng,SOLID,Five design principles for understandable software.,Hard
+516,Android,JetpackNavigation,Suite of libraries for consistent app navigation.,Intermediate
+517,Android,DeepLink_AppLinks,Connecting website URLs directly to app content.,Hard
+518,Android,SafeArgs,Plugin for passing data between fragments safely.,Intermediate
+519,Android,NavController,Object that manages navigation within a NavHost.,Basic
+520,Android,BackStackManager,Tracking the history of screens visited by user.,Intermediate
+521,Database,DataWarehouse,System for reporting and data analysis for business.,Basic
+522,Database,DataMart,Subset of data warehouse for specific business unit.,Intermediate
+523,Database,ETL_Extract,Process of reading data from various source systems.,Basic
+524,Database,ETL_Transform,Converting data into a format for destination system.,Intermediate
+525,Database,ETL_Load,Writing processed data into the target database.,Basic
+526,SoftEng,VersionControl_Git,Distributed system for tracking changes in code.,Basic
+527,SoftEng,GitCommit,Recording changes to the local repository history.,Basic
+528,SoftEng,GitPush,Sending local commits to a remote server repository.,Basic
+529,SoftEng,GitPull,Fetching and merging changes from remote to local.,Basic
+530,SoftEng,GitBranching,Creating a separate line of development in Git.,Intermediate
+531,Android,PerformanceProfiling,Measuring app's CPU, Memory, and Network usage.,Hard
+532,Android,MemoryLeak,Failure to release unused memory causing app lag.,Hard
+533,Android,AnrError,Application Not Responding error due to blocked UI.,Hard
+534,Android,ColdStart,App starting from scratch without existing process.,Intermediate
+535,Android,WarmStart,App restarting while some states remain in memory.,Basic
+536,Database,Indexing_BTree,Standard data structure for balanced disk search.,Hard
+537,Database,Indexing_Hash,Using hash functions for quick equality lookups.,Intermediate
+538,Database,ClusteredIndex,Physically reorders the rows in a table on disk.,Hard
+539,Database,NonClusteredIndex,Structure separate from data for faster searching.,Intermediate
+540,Database,CompositeIndex,Index built on two or more columns of a table.,Intermediate
+541,SoftEng,BlackBoxTesting,Testing functionality without seeing internal code.,Basic
+542,SoftEng,WhiteBoxTesting,Testing internal logic and code structures.,Hard
+543,SoftEng,GreyBoxTesting,Combination of black and white box testing methods.,Intermediate
+544,SoftEng,RegressionTesting,Re-testing to ensure updates didn't break features.,Basic
+545,SoftEng,UnitTesting,Testing the smallest piece of code in isolation.,Basic
+546,Android,WorkManager_Chaining,Running background tasks in a specific sequence.,Hard
+547,Android,InputMethodEditor,The control that lets users enter text (keyboard).,Intermediate
+548,Android,SoftKeyboard,On-screen keyboard displayed by the system.,Basic
+549,Android,ClipboardManager,Framework for copying and pasting data in Android.,Basic
+550,Android,Toast_Duration,Length of time a toast message remains visible.,Basic
+551,Database,SqlInjection,Attack that inserts malicious SQL code into queries.,Hard
+552,Database,DataMasking,Hiding original data with modified content for security.,Intermediate
+553,Database,DataAudit,Process of tracking database access and changes.,Intermediate
+554,Database,PrivilegeEscalation,User gaining unauthorized access to higher permissions.,Hard
+555,Database,Authentication,Verifying the identity of a database user.,Basic
+556,SoftEng,SpiralModel,Risk-driven model for large, expensive projects.,Hard
+557,SoftEng,WaterfallModel,Classic sequential model for software development.,Basic
+558,SoftEng,AgileManifesto,Foundational values for iterative software work.,Basic
+559,SoftEng,ScrumSprints,Time-boxed iterations for delivering software parts.,Intermediate
+560,SoftEng,DailyStandup,Short meeting to discuss daily project progress.,Basic
+561,Android,AppPermissions,Mechanism to protect user privacy and data access.,Basic
+562,Android,RuntimePermissions,Asking for access while the app is running.,Intermediate
+563,Android,PermissionGroups,Logical clusters of related app permissions.,Basic
+564,Android,ScopedStorage,Privacy feature restricting access to external files.,Hard
+565,Android,PrivacyDashboard,Android feature showing app data usage history.,Basic
+566,Database,MongoDB_Atlas,Cloud-based managed service for NoSQL databases.,Intermediate
+567,Database,BSON,Binary JSON format used by MongoDB for storage.,Hard
+568,Database,Collection,Groups of documents in a NoSQL environment.,Basic
+569,Database,Document,The basic unit of data in NoSQL (similar to row).,Basic
+570,Database,ReplicaSet,Group of nodes that maintain the same data set.,Hard
+571,SoftEng,CloudComputing,Delivery of computing services over the internet.,Basic
+572,SoftEng,IaaS,Infrastructure as a Service (e.g., Virtual Machines).,Intermediate
+573,SoftEng,PaaS,Platform as a Service (e.g., App Engine).,Intermediate
+574,SoftEng,SaaS,Software as a Service (e.g., Google Drive).,Basic
+575,SoftEng,Elasticity,Ability to scale resources up or down automatically.,Hard
+576,Android,VectorAssetStudio,Tool to convert SVG/PSD files into VectorDrawables.,Basic
+577,Android,LottieAnimations,Rendering Adobe After Effects animations in apps.,Intermediate
+578,Android,MaterialDesign3,Google's latest design system for personalization.,Basic
+579,Android,AdaptiveLayouts,UI that adjusts to phones, tablets, and foldables.,Hard
+580,Android,JetpackComposeUI,Modern declarative way to build Android interfaces.,Hard
+581,Database,DataLake,Central repository for all raw and structured data.,Intermediate
+582,Database,DataPipeline,Series of steps to move data from source to target.,Intermediate
+583,Database,DataLineage,Understanding data's path from origin to final view.,Hard
+584,Database,DataGovernance,Managing the availability and security of data.,Intermediate
+585,Database,Metadata,Information that describes other data in a system.,Basic
+586,SoftEng,MicroservicesArchitecture,Building apps as a suite of small services.,Hard
+587,SoftEng,DockerContainer,Packages code and dependencies for easy running.,Intermediate
+588,SoftEng,Kubernetes_K8s,System for automating containerized app deployment.,Hard
+589,SoftEng,ServerlessComputing,Running code without managing server hardware.,Intermediate
+590,SoftEng,API_Gateway,Single entry point for all client requests in backend.,Hard
+591,Android,ChatActivityLogic,The code handling user interaction in AI Study Buddy.,Intermediate
+592,Android,TFLiteInterpreter,Running the AI model on your Samsung A05.,Hard
+593,Android,ResponseMapping,Matching keywords to appropriate AI answers.,Basic
+594,Android,HashMap_Storage,Using key-value pairs for fast local data lookup.,Intermediate
+595,Android,UserFeedbackUI,Interface for users to rate AI responses.,Basic
+596,Database,FirebaseRealtimeDB,Cloud NoSQL database that syncs data in real-time.,Basic
+597,Database,Firestore,Flexible, scalable NoSQL cloud database for apps.,Intermediate
+598,SoftEng,FinalYearProject,The capstone project for computer science degree.,Basic
+599,SoftEng,VIVA_Presentation,Oral exam to defend the project before teachers.,Basic
+600,SoftEng,ProjectDocumentation,Detailed report covering all phases of development.,Basic
+601,Android,ViewPropertyAnimator,API for simple and efficient view animations.,Intermediate
+602,Android,ObjectAnimator,Animates a specific property of an object over time.,Hard
+603,Android,Interpolator,Defines the rate of change for an animation (speed).,Intermediate
+604,Android,TransitionManager,Automates UI changes between different layouts.,Hard
+605,Android,VectorDrawableAnimation,Making icons move using AnimatedVectorDrawable.,Hard
+606,Database,DataSovereignty,Concept that data is subject to laws of its country.,Hard
+607,Database,DataAnonymization,Removing PII so individuals cannot be identified.,Intermediate
+608,Database,Pseudonymization,Replacing private identifiers with fake names.,Hard
+609,Database,GDPR_Compliance,Rules for protecting user data privacy in software.,Hard
+610,Database,DataRetentionPolicy,How long an organization keeps specific data.,Basic
+611,SoftEng,UserExperience_UX,The overall feeling a user has while using the app.,Basic
+612,SoftEng,UserInterface_UI,The visual elements users interact with in the app.,Basic
+613,SoftEng,Wireframe,A low-fidelity visual guide of the app's layout.,Basic
+614,SoftEng,HighFidelityMockup,A detailed and realistic preview of the final UI.,Intermediate
+615,SoftEng,UsabilityHeuristics,Broad rules of thumb for good interface design.,Hard
+616,Android,WorkManagerBackoff,Policy for retrying failed background tasks.,Hard
+617,Android,ExpeditedJob,Task that needs to run immediately in background.,Intermediate
+618,Android,ConstraintLayoutChains,Grouping views together horizontally or vertically.,Intermediate
+619,Android,ConstraintLayoutGuideline,Invisible line used to align UI components.,Basic
+620,Android,ConstraintLayoutBarrier,Virtual view that moves based on other views.,Hard
+621,Database,ColumnLevelSecurity,Restricting access to specific columns in a table.,Hard
+622,Database,RowLevelSecurity,Restricting access to specific rows based on user.,Hard
+623,Database,TransparentDataEncryption,Encrypting the entire database file automatically.,Hard
+624,Database,SaltedHashing,Adding random data to passwords before hashing.,Hard
+625,Database,SQLInjectionPrevention,Using prepared statements to block malicious code.,Intermediate
+626,SoftEng,FunctionalTesting,Verifying the app does exactly what it is told.,Basic
+627,SoftEng,PerformanceTesting,Checking if app is fast under heavy user load.,Intermediate
+628,SoftEng,ScalabilityTesting,Testing if app can handle 1 million users.,Hard
+629,SoftEng,SecurityAuditing,Checking for vulnerabilities in the code and DB.,Hard
+630,SoftEng,ComplianceTesting,Checking if app follows industry legal standards.,Intermediate
+631,Android,AppWidgets,Small app views that live on the home screen.,Basic
+632,Android,RemoteViews,Hierarchy of views that can be displayed in another process.,Hard
+633,Android,ShortcutManager,Creating custom shortcuts for the app icon.,Intermediate
+634,Android,DynamicShortcuts,Shortcuts that change based on user behavior.,Hard
+635,Android,PinItemRequest,Asking user to add a shortcut to home screen.,Intermediate
+636,Database,Normalization_DKNF,Domain-Key Normal Form for ultimate data integrity.,Hard
+637,Database,DatabaseTuning,Optimizing DB settings for maximum performance.,Hard
+638,Database,BufferPool,Memory area where database pages are cached.,Intermediate
+639,Database,WriteAheadLogging,Recording changes in log before writing to DB.,Hard
+640,Database,LogFileRotation,Managing log file sizes to prevent disk overflow.,Basic
+641,SoftEng,AgileScrumMaster,The person who facilitates the scrum process.,Basic
+642,SoftEng,ProductBacklog,A prioritized list of features for the app.,Basic
+643,SoftEng,SprintRetrospective,Meeting to improve the next development cycle.,Intermediate
+644,SoftEng,VelocityChart,Graph showing how much work team finishes in sprint.,Intermediate
+645,SoftEng,BurndownChart,Graph showing work remaining vs time available.,Basic
+646,Android,TFLiteQuantization,Reducing model size for faster mobile execution.,Hard
+647,Android,GPUDelegate,Using mobile GPU to speed up AI processing.,Hard
+648,Android,EdgeComputing,Processing data on the device instead of cloud.,Intermediate
+649,Android,ModelOptimization,Fine-tuning AI models for low-end hardware.,Hard
+650,Android,FeatureExtraction,Identifying key pieces of data in a user query.,Intermediate
+651,Database,RelationalSchema,The logical mapping of a relational database.,Basic
+652,Database,DataDictionary,Repository for all database object definitions.,Basic
+653,Database,EntityRelationshipModel,Visualizing how data entities are connected.,Intermediate
+654,Database,StrongEntity,Entity that exists independently of others.,Basic
+655,Database,WeakEntity,Entity that depends on another for its existence.,Intermediate
+656,SoftEng,SoftwareArchitecture,The high-level structure of a software system.,Hard
+657,SoftEng,MonolithicArchitecture,All code in one big, single application unit.,Basic
+658,SoftEng,MicroservicesArchitecture,Dividing app into many small independent services.,Hard
+659,SoftEng,LayeredArchitecture,Separating UI, Business Logic, and Data layers.,Intermediate
+660,SoftEng,EventDrivenArchitecture,App flow triggered by specific system events.,Hard
+661,Android,DarkThemeSupport,Adapting UI colors for night mode usage.,Basic
+662,Android,EdgeToEdge,Rendering app content behind system bars.,Intermediate
+663,Android,WindowInsets,Handling screen cutouts and notch areas in UI.,Hard
+664,Android,MaterialComponents,Standardized UI elements for Android apps.,Basic
+665,Android,DynamicColor,UI colors that change based on user wallpaper.,Intermediate
+666,Database,DataPartitioning,Breaking large tables into smaller physical parts.,Hard
+667,Database,HorizontalSharding,Storing different rows on different servers.,Hard
+668,Database,VerticalSharding,Storing different columns on different servers.,Intermediate
+669,Database,ReadReplica,Copy of DB used only for reading data quickly.,Intermediate
+670,Database,FailoverCluster,Backup server that takes over if primary fails.,Hard
+671,SoftEng,UnitTesting,Testing individual functions or classes alone.,Basic
+672,SoftEng,IntegrationTesting,Testing how different modules work together.,Intermediate
+673,SoftEng,SystemTesting,Testing the entire app from start to finish.,Intermediate
+674,SoftEng,AcceptanceTesting,Ensuring app meets all user requirements.,Basic
+675,SoftEng,RegressionTesting,Checking that new code didn't break old features.,Basic
+676,Android,AssetPackaging,Including fonts and local DBs in the APK file.,Basic
+677,Android,ProGuardRules,Configuration to keep specific code from shrinking.,Hard
+678,Android,R8Compiler,The modern tool that shrinks and optimizes code.,Hard
+679,Android,DexFile,The compiled Dalvik Executable file for Android.,Hard
+680,Android,MultiDex,Allowing apps to have more than 65k methods.,Intermediate
+681,Database,CursorObject,Pointer used to fetch data row by row in SQL.,Intermediate
+682,Database,CommonTableExpression,Temporary result set for complex queries.,Hard
+683,Database,WindowFunction,Performing calculations across a set of rows.,Hard
+684,Database,RecursiveQuery,A query that references itself to find patterns.,Hard
+685,Database,Subquery,A query nested inside another SQL query.,Basic
+686,SoftEng,Coupling,The degree of dependence between modules.,Hard
+687,SoftEng,Cohesion,How closely related functions are in a module.,Hard
+688,SoftEng,Modularization,Breaking a large app into smaller modules.,Basic
+689,SoftEng,Abstraction,Hiding complex logic behind simple interfaces.,Intermediate
+610,SoftEng,Encapsulation,Keeping data safe inside classes from outside access.,Basic
+691,Android,LifecycleObserver,Class that monitors activity state changes.,Hard
+692,Android,ProcessLifecycle,Managing app state when it is in background.,Intermediate
+693,Android,ConfigurationChange,Handling screen rotations and language shifts.,Intermediate
+694,Android,SavedStateHandle,Storing UI data during system-initiated restarts.,Hard
+695,Android,ViewModelFactory,Creating ViewModels with custom constructors.,Hard
+696,Database,CloudSQL,Managed relational database service in the cloud.,Intermediate
+697,Database,BigQuery,Google's warehouse for massive data analysis.,Hard
+698,Database,FirebaseRules,Security scripts to control DB access in apps.,Intermediate
+699,Database,NoSQLDocument,JSON-like data structure in modern databases.,Basic
+700,SoftEng,Success,The feeling of completing a 700-line dataset!,Basic
