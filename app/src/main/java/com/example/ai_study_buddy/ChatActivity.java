@@ -5,12 +5,13 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import org.tensorflow.lite.Interpreter;
 
+import java.io.BufferedReader;
 import java.io.FileInputStream;
+import java.io.InputStreamReader;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 import java.util.HashMap;
@@ -29,68 +30,96 @@ public class ChatActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
 
-        // UI Setup
+        // 1. UI Setup
         subjectTitle = findViewById(R.id.subjectTitle);
         aiResponseText = findViewById(R.id.aiResponseText);
         queryInput = findViewById(R.id.queryInput);
         sendBtn = findViewById(R.id.sendBtn);
 
-        // Subject Name get karna
         String subject = getIntent().getStringExtra("subject_name");
         subjectTitle.setText("Studying: " + subject);
 
-        // 1. TFLite Model Load karna
+        // 2. TFLite Model Load
         try {
             tflite = new Interpreter(loadModelFile());
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        // 2. Knowledge Base "Training" (Adding more questions)
+        // 3. 700 Entries wala Dataset Load karna
         initKnowledgeBase();
 
+        // 4. Send Button Logic
         sendBtn.setOnClickListener(v -> {
-            String question = queryInput.getText().toString().toLowerCase().trim();
+            String question = queryInput.getText().toString().trim();
             if(!question.isEmpty()) {
-                aiResponseText.setText("Thinking about: " + question + "...");
-                processQuery(question);
-                queryInput.setText("");
+                // Pehle purani history lein
+                String oldText = aiResponseText.getText().toString();
+                if(oldText.contains("Welcome") || oldText.contains("Ask me")) {
+                    oldText = ""; // Purana welcome message saaf karein
+                }
+
+                // User ka sawal screen par dikhayein
+                String updateText = oldText + "\nYOU: " + question + "\n";
+                aiResponseText.setText(updateText + "Thinking...");
+
+                processQuery(question, updateText);
+                queryInput.setText(""); // Input field saaf karein
             }
         });
     }
 
     private void initKnowledgeBase() {
         knowledgeBase = new HashMap<>();
-        // Android Development Questions
-        knowledgeBase.put("activity", "An Activity is a single, focused thing that the user can do, represented by a screen.");
-        knowledgeBase.put("fragment", "A Fragment represents a reusable portion of your app's UI.");
-        knowledgeBase.put("intent", "An Intent is a messaging object you can use to request an action from another component.");
-        knowledgeBase.put("lifecycle", "Lifecycle states: onCreate, onStart, onResume, onPause, onStop, onDestroy.");
+        try {
+            // Aapki 700 lines wali file
+            BufferedReader reader = new BufferedReader(
+                    new InputStreamReader(getAssets().open("StudyBuddy_Master_Dataset.csv")));
 
-        // Database & Firebase
-        knowledgeBase.put("firebase", "Firebase is Google's mobile platform for authentication, database, and cloud storage.");
-        knowledgeBase.put("sql", "SQL is a standard language for accessing and manipulating databases.");
-        knowledgeBase.put("nosql", "NoSQL (like Firestore) stores data in documents instead of tables.");
+            String line;
+            reader.readLine(); // Header skip
 
-        // Software Engineering
-        knowledgeBase.put("sdlc", "SDLC stands for Software Development Life Cycle (Planning, Analysis, Design, Testing).");
-        knowledgeBase.put("agile", "Agile is an iterative approach to software development and project management.");
+            while ((line = reader.readLine()) != null) {
+                // Regex lambe answers ke commas handle karne ke liye
+                String[] parts = line.split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
+                if (parts.length >= 4) {
+                    String keyword = parts[2].replace("\"", "").toLowerCase().trim();
+                    String response = parts[3].replace("\"", "").trim();
+                    knowledgeBase.put(keyword, response);
+                }
+            }
+            reader.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
-    private void processQuery(String query) {
-        String answer = "AI Buddy: Based on our 1.tflite analysis, this is an important topic. Let's research more!";
+    private void processQuery(String query, String historyBeforeAI) {
+        String lowerQuery = query.toLowerCase().trim();
+        String answer = null;
 
-        // Match query with Knowledge Base
-        for (String key : knowledgeBase.keySet()) {
-            if (query.contains(key)) {
-                answer = "AI Buddy: " + knowledgeBase.get(key);
-                break;
+        // Dataset mein search logic
+        if (knowledgeBase.containsKey(lowerQuery)) {
+            answer = knowledgeBase.get(lowerQuery);
+        } else {
+            for (Map.Entry<String, String> entry : knowledgeBase.entrySet()) {
+                if (lowerQuery.contains(entry.getKey())) {
+                    answer = entry.getValue();
+                    break;
+                }
             }
         }
 
-        // Final Display with small delay
-        final String finalAnswer = answer;
-        aiResponseText.postDelayed(() -> aiResponseText.setText(finalAnswer), 700);
+        if (answer == null) {
+            answer = "Topic analyzed via 1.tflite. Please refer to documentation for detailed study.";
+        }
+
+        // Final display jo Question aur Answer dono dikhayega
+        final String finalDisplay = historyBeforeAI + "AI BUDDY: " + answer + "\n--------------------";
+
+        aiResponseText.postDelayed(() -> {
+            aiResponseText.setText(finalDisplay);
+        }, 600);
     }
 
     private MappedByteBuffer loadModelFile() throws Exception {

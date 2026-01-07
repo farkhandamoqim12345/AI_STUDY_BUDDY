@@ -8,11 +8,11 @@
 8,Database,Normalization,Process of organizing data to reduce redundancy.,Hard
 9,Database,Primary Key,A unique identifier for each record in a table.,Basic
 10,Database,Schema,The formal structure and design of a database.,Intermediate
-11,SoftEng,SDLC,Software Development Life Cycle phases and steps.,Basic
-12,SoftEng,Agile,Iterative methodology for rapid software delivery.,Intermediate
-13,SoftEng,Testing,Process of verifying and validating software quality.,Basic
-14,SoftEng,Waterfall,A linear and sequential model for development.,Basic
-15,SoftEng,Scrum,An agile framework for managing complex projects.,Intermediate
+11,Artificial Intelligence,TuringTest,A test to check if a machine can think like a human.,Basic
+12,Artificial Intelligence,Heuristics,Problem-solving techniques that find a quick solution.,Intermediate
+13,Machine Learning,Supervised,Learning from a labeled dataset with known outputs.,Basic
+14,Machine Learning,Unsupervised,Finding hidden patterns in data without pre-existing labels.,Basic
+15,Artificial Intelligence,ExpertSystem,A system that mimics human decision-making in a field.,Intermediate
 16,Android,Service,Component for performing long-running tasks in background.,Hard
 17,Android,Adapter,Bridge between data sources and UI components.,Intermediate
 18,Android,Layout,The visual structure and design of a user interface.,Basic
@@ -683,11 +683,11 @@
 683,Database,WindowFunction,Performing calculations across a set of rows.,Hard
 684,Database,RecursiveQuery,A query that references itself to find patterns.,Hard
 685,Database,Subquery,A query nested inside another SQL query.,Basic
-686,SoftEng,Coupling,The degree of dependence between modules.,Hard
-687,SoftEng,Cohesion,How closely related functions are in a module.,Hard
-688,SoftEng,Modularization,Breaking a large app into smaller modules.,Basic
-689,SoftEng,Abstraction,Hiding complex logic behind simple interfaces.,Intermediate
-610,SoftEng,Encapsulation,Keeping data safe inside classes from outside access.,Basic
+686,Artificial Intelligence,NeuralNetwork,A system modeled on the human brain for pattern recognition.,Hard
+687,Artificial Intelligence,Heuristics,Strategies used to find solutions faster by sacrificing perfection.,Intermediate
+688,Machine Learning,Supervised,Learning from a labeled dataset with known input-output pairs.,Basic
+689,Machine Learning,Regression,A method to predict a continuous value based on input variables.,Intermediate
+690,Machine Learning,Clustering,Grouping similar data points together without pre-defined labels.,Hard
 691,Android,LifecycleObserver,Class that monitors activity state changes.,Hard
 692,Android,ProcessLifecycle,Managing app state when it is in background.,Intermediate
 693,Android,ConfigurationChange,Handling screen rotations and language shifts.,Intermediate
